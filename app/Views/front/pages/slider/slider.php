@@ -11,7 +11,7 @@
                 <div class="container">
                     <div class="carousel-caption relative">
                         <h1>Gather<br><strong class="dark_brown">New Body Energy</strong></h1>
-                        <a id="contactUsLink" href="#">contact us</a>
+                        <a id="contactUsLink" href="#contact">contact us</a>
                     </div>
                 </div>
             </div>
@@ -49,16 +49,16 @@
         event.preventDefault();
         const contactElement = document.getElementById('contact');
         if (contactElement) {
-            const offset = -200; // Adjust offset as needed
+            const headerHeight = document.getElementById('mainHeader').offsetHeight || 0; // Adjust for header height
             const elementPosition = contactElement.getBoundingClientRect().top + window.pageYOffset;
-            const offsetPosition = elementPosition + offset;
+            const offsetPosition = elementPosition - headerHeight;
 
             window.scrollTo({
                 top: offsetPosition,
                 behavior: 'smooth'
             });
         } else {
-            console.error('El elemento con ID "contact" no existe.');
+            console.error('The element with ID "contact" does not exist.');
         }
     });
 </script>
