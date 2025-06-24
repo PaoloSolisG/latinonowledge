@@ -38,12 +38,12 @@
     </div>
 
     <div class="wrapper">
-        <?php include APPPATH . 'Views/front/header/header.php'; ?>
-        <div id="content">
+        <?php include APPPATH . 'Views/front/header/header.php'; ?>        <div id="content">
             <?php include APPPATH . 'Views/front/pages/slider/slider.php'; ?>
-            <?php include APPPATH . 'Views/front/pages/about/about.php'; ?>
+            <?php include APPPATH . 'Views/front/pages/services/services.php'; ?>            <?php include APPPATH . 'Views/front/pages/about/about.php'; ?>
             <?php include APPPATH . 'Views/front/pages/yoga/yoga.php'; ?>
             <?php include APPPATH . 'Views/front/pages/pricing/pricing.php'; ?>
+            <?php include APPPATH . 'Views/front/pages/instagram/instagram.php'; ?>
             <?php include APPPATH . 'Views/front/pages/contacto/contact.php'; ?>
         </div>
         <?php include APPPATH . 'Views/front/footer/footer.php'; ?>
