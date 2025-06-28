@@ -1,4 +1,6 @@
-<div id="about" class="about top_layer" style="background-image: url('images/about_bg.jpg'); background-attachment: fixed; background-size: cover;">
+<?= $this->extend('front/layout/main') ?>
+<?= $this->section('content') ?>
+<div id="about" class="about top_layer" style="background-image: url('/images/about_bg.jpg'); background-attachment: fixed; background-size: cover;">
     <div class="container-fluid">
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 pppp">
@@ -15,7 +17,7 @@
             <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 pppp">
                 <div class="about_box_img">
                     <figure>
-                        <img src="images/about_img.png" alt="#" style="transition: transform 0.5s ease;">
+                        <img src="/images/about_img.png" alt="#" style="transition: transform 0.5s ease;">
                     </figure>
                 </div>
             </div>
@@ -83,3 +85,4 @@
         aboutModal.style.display = 'none';
     });
 </script>
+<?= $this->endSection() ?>
