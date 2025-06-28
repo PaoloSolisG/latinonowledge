@@ -1,27 +1,21 @@
-<header id="mainHeader" style="background-color: rgb(225 225 225 / 30%) !important;">
-    <!-- header inner -->
+<header id="mainHeader" class="modern-header">
     <div class="head-top">
         <div class="container">
-            <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-                    <div class="email">
-                        <a href="#"><img src="images/mail_icon.png" /> Email : demo@gmail.com</a>
-                    </div>
+            <div class="row align-items-center">
+                <!-- Columna izquierda: Información de contacto -->
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 contact-info-col d-flex align-items-center justify-content-xl-start justify-content-center mb-2 mb-xl-0">
+                  
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-                    <div class="logo">
-                        <a href="index.html"><img src="images/logo.png" /></a>
-                    </div>
-                </div>                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-                    <div class="contact_nu">
-                        <a href="#"> <img src="images/phone_icon.png" /> Contact : +71 71234567</a>
-                        <a target="_blank" href="https://calendly.com/latinoknow" class="book-now-btn">
-                            <span>Book Now</span>
-                        </a>
-                    </div>
+                <!-- Columna central: Logo -->
+              
+                <!-- Columna derecha: Teléfono y botón -->
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 contact-info-col d-flex align-items-center justify-content-xl-end justify-content-center">
+             
                 </div>
             </div>
-        </div>    </div>    <div class="bg" style="background-color: rgb(225 225 225 / 30%) !important;">
+        </div>
+    </div>
+    <div class="bg">
         <div class="container">
             <nav class="navigation navbar-expand-md navbar-dark">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,16 +53,84 @@
 </header>
 
 <style>
+.modern-header {
+    background-color: rgb(225 225 225 / 30%) !important;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+.head-top {
+    padding: 0.3rem 0 0.1rem 0; /* reducido el padding superior e inferior */
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.contact-link {
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+    gap: 0.5rem;
+}
+.contact-link:hover {
+    color: #5ab337;
+}
+.icon {
+    width: 22px;
+    height: 22px;
+    margin-right: 0.2rem;
+    filter: drop-shadow(0 1px 2px rgba(90,179,55,0.10));
+}
+.logo-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo-img {
+    max-width: 90px;
+    height: auto;
+    margin-bottom: 0.2rem;
+}
+.brand-name {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #5ab337;
+    letter-spacing: 1px;
+}
+.book-now-btn {
+    background-color: #5ab337 !important;
+    color: white !important;
+    padding: 0.65rem 1.3rem !important;
+    border-radius: 25px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease !important;
+    border: none !important;
+    margin-left: 0.5rem;
+    margin-top: 0.3rem;
+    display: inline-block;
+}
+.book-now-btn:hover {
+    background-color: #4a9929 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(90, 179, 55, 0.3);
+}
+.bg {
+    background-color: rgb(225 225 225 / 30%) !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
 .modern-nav {
     display: flex;
     align-items: center;
     gap: 2rem;
 }
-
 .modern-nav-item {
     margin: 0;
 }
-
 .modern-nav-item .nav-link {
     color: #333 !important;
     font-weight: 500;
@@ -78,12 +140,10 @@
     transition: color 0.3s ease;
     border-bottom: 2px solid transparent;
 }
-
 .modern-nav-item .nav-link:hover {
     color: #5ab337 !important;
     border-bottom-color: #5ab337;
 }
-
 .modern-book-btn {
     background-color: #5ab337 !important;
     color: white !important;
@@ -94,25 +154,36 @@
     transition: all 0.3s ease !important;
     border: none !important;
 }
-
 .modern-book-btn:hover {
     background-color: #4a9929 !important;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(90, 179, 55, 0.3);
 }
-
 .modern-book-btn span {
     font-size: 0.95rem;
 }
-
 @media (max-width: 991px) {
     .modern-nav {
         flex-direction: column;
         gap: 1rem;
     }
-    
     .navbar-nav.ml-auto {
         margin-top: 1rem;
+    }
+    .head-top .row {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .contact-info-col, .logo-col {
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center;
+    }
+    .contact-info {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.7rem;
     }
 }
 </style>

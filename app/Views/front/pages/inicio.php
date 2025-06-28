@@ -9,10 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <!-- site metas -->
-    <title>flexed</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <title>Latino Knowledge - Strategic Financial Guidance</title>
+    <meta name="keywords" content="latino knowledge, tax preparation, accounting, financial management, business startup assistance, ITIN, newport news, virginia">
+    <meta name="description" content="Latino Knowledge provides expert financial services including tax preparation, accounting, financial management, and business startup assistance in Newport News, Virginia.">
+    <meta name="author" content="Latino Knowledge">
 
     <base href="<?php echo base_url('public/front') ?>/">
     <!-- bootstrap css -->
@@ -22,9 +22,12 @@
     <!-- style css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- responsive-->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- awesome fontfamily -->
+    <link rel="stylesheet" href="css/responsive.css">    <!-- awesome fontfamily -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- FontAwesome 6 for modern icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Latino Knowledge Enhanced Styles -->
+    <link rel="stylesheet" href="css/latino-knowledge-enhanced.css">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -40,11 +43,11 @@
     <div class="wrapper">
         <?php include APPPATH . 'Views/front/header/header.php'; ?>        <div id="content">
             <?php include APPPATH . 'Views/front/pages/slider/slider.php'; ?>
-            <?php include APPPATH . 'Views/front/pages/services/services.php'; ?>            <?php include APPPATH . 'Views/front/pages/about/about.php'; ?>
-            <?php include APPPATH . 'Views/front/pages/yoga/yoga.php'; ?>
-            <?php include APPPATH . 'Views/front/pages/pricing/pricing.php'; ?>
-            <?php include APPPATH . 'Views/front/pages/instagram/instagram.php'; ?>
-            <?php include APPPATH . 'Views/front/pages/contacto/contact.php'; ?>
+            <?php include APPPATH . 'Views/front/pages/home/home.php'; ?>
+            <?php include APPPATH . 'Views/front/pages/services/services_enhanced.php'; ?>
+            <?php include APPPATH . 'Views/front/pages/team/team_enhanced.php'; ?>
+            <?php include APPPATH . 'Views/front/pages/insights/insights_enhanced.php'; ?>
+            <?php include APPPATH . 'Views/front/pages/contacto/contact_enhanced.php'; ?>
         </div>
         <?php include APPPATH . 'Views/front/footer/footer.php'; ?>
     </div>
@@ -79,22 +82,21 @@
     </script>
 
     <script>
-        // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-        // Australia.
+        // Latino Knowledge location: Newport News, Virginia
         function initMap() {
             var map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 11,
                 center: {
-                    lat: 40.645037,
-                    lng: -73.880224
+                    lat: 37.0871,
+                    lng: -76.4730
                 },
             });
 
             var image = 'images/maps-and-flags.png';
             var beachMarker = new google.maps.Marker({
                 position: {
-                    lat: 40.645037,
-                    lng: -73.880224
+                    lat: 37.0871,
+                    lng: -76.4730
                 },
                 map: map,
                 icon: image

@@ -1,4 +1,4 @@
-<div id="slider" class="slider_section banner_main" style="margin-top: 150px; position: relative; z-index: 1;">
+<div id="slider" class="slider_section banner_main" style="margin-top: 100px; position: relative; z-index: 1;">
     <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -89,12 +89,12 @@
 }
 
 .btn-financial {
-    background: transparent;
-    color: white;
+    background: linear-gradient(90deg, #00cccc 0%, #28DEBB 100%);
+    color: #FDFCF9;
     padding: 15px 35px;
     font-size: 1.1rem;
     font-weight: 600;
-    border: 2px solid white;
+    border: 2px solid #30C5DC;
     border-radius: 50px;
     text-decoration: none;
     text-transform: uppercase;
@@ -104,8 +104,9 @@
 }
 
 .btn-financial:hover {
-    background: white;
+    background: #08f39d;
     color: #333;
+    border-color: #08f39d;
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
     text-decoration: none;
@@ -130,17 +131,36 @@
     }
 }
 
+.carousel-indicators {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin-left: 0;
+    z-index: 3;
+    padding-left: 0;
+    list-style: none;
+}
+
 .carousel-indicators li {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: rgba(255,255,255,0.5);
-    border: 2px solid rgba(255,255,255,0.8);
+    background-color: #FDFCF9;
+    border: 2px solid #30C5DC;
+    margin: 0 8px;
+    display: inline-block;
+    transition: background 0.3s, border 0.3s;
 }
 
 .carousel-indicators .active {
-    background-color: #28a745;
-    border-color: #28a745;
+    background-color: #c8b568;
+    border-color: #c8b568;
 }
 
 .carousel-control-prev,
@@ -173,6 +193,17 @@
 }
 
 @media (max-width: 576px) {
+    #slider {
+        margin-top: 5px !important;
+    }
+    .carousel-indicators {
+        flex-direction: row !important;
+        display: flex !important;
+        justify-content: flex-end !important;
+        align-items: center;
+        width: 100%;
+        margin-left: 0;
+    }
     .carousel-caption h1 {
         font-size: 2rem;
     }
