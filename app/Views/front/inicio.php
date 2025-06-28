@@ -42,12 +42,11 @@
 
     <div class="wrapper">
         <?php include APPPATH . 'Views/front/header/header.php'; ?>        <div id="content">
-            <?php include APPPATH . 'Views/front/pages/slider/slider.php'; ?>
-            <?php include APPPATH . 'Views/front/pages/home/home.php'; ?>
-            <?php include APPPATH . 'Views/front/pages/services/services_enhanced.php'; ?>
-            <?php include APPPATH . 'Views/front/pages/team/team_enhanced.php'; ?>
-            <?php include APPPATH . 'Views/front/pages/insights/insights_enhanced.php'; ?>
-            <?php include APPPATH . 'Views/front/pages/contacto/contact_enhanced.php'; ?>
+            <?php include APPPATH . 'Views/front/slider.php'; ?>
+            <?php include APPPATH . 'Views/front/servicios.php'; ?>
+            <?php include APPPATH . 'Views/front/team_enhanced.php'; ?>
+            <?php include APPPATH . 'Views/front/insights_enhanced.php'; ?>
+            <?php include APPPATH . 'Views/front/contacto.php'; ?>
         </div>
         <?php include APPPATH . 'Views/front/footer/footer.php'; ?>
     </div>
