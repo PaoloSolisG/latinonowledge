@@ -125,7 +125,7 @@
                         </p>
                         <div class="solution-actions">
                             <a href="https://latino-knowledge.ueniweb.com/services/financial-solutions/tax-preparation-150515038" class="btn btn-link" target="_blank">Learn more</a>
-                            <a href="https://calendly.com/latinoknow" class="btn btn-primary" target="_blank">Book it Now</a>
+                            <a href="https://calendly.com/latinoknow/cita-para-impuestos" class="btn btn-primary" target="_blank">Book it Now</a>
                         </div>
                     </div>
                 </div>
@@ -148,7 +148,7 @@
                         </div>
                         <div class="solution-actions">
                             <a href="https://latino-knowledge.ueniweb.com/services/financial-solutions/accounting-and-financial-management-150515039" class="btn btn-link" target="_blank">Learn more</a>
-                            <a href="https://calendly.com/latinoknow" class="btn btn-primary" target="_blank">Book it Now</a>
+                            <a href="https://calendly.com/latinoknow/accounting-services-servicios-de-contabilidad?month=2025-06" class="btn btn-primary" target="_blank">Book it Now</a>
                         </div>
                     </div>
                 </div>
@@ -172,7 +172,7 @@
                         </div>
                         <div class="solution-actions">
                             <a href="https://latino-knowledge.ueniweb.com/services/financial-solutions/business-startup-assistance-150515040" class="btn btn-link" target="_blank">Learn more</a>
-                            <a href="https://calendly.com/latinoknow" class="btn btn-primary" target="_blank">Book it Now</a>
+                            <a href="https://calendly.com/latinoknow/business-start-up?month=2025-06" class="btn btn-primary" target="_blank">Book it Now</a>
                         </div>
                     </div>
                 </div>
