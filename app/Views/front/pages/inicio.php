@@ -45,7 +45,7 @@
             <?php include APPPATH . 'Views/front/pages/slider/slider.php'; ?>
             <?php include APPPATH . 'Views/front/pages/home/home.php'; ?>
             <?php include APPPATH . 'Views/front/pages/services/services_enhanced.php'; ?>
-            <?php include APPPATH . 'Views/front/pages/team/team_enhanced.php'; ?>
+          
             <?php include APPPATH . 'Views/front/pages/insights/insights_enhanced.php'; ?>
             <?php include APPPATH . 'Views/front/pages/contacto/contact_enhanced.php'; ?>
         </div>

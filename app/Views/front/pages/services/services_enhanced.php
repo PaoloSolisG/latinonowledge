@@ -51,7 +51,7 @@
 </section>
 
 <!-- Financial Solutions Section -->
-<section id="financial-solutions" class="financial-solutions-section layout_padding">
+<!-- <section id="financial-solutions" class="financial-solutions-section layout_padding">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center mb-5">
@@ -76,7 +76,7 @@
         </div>
         
         <div class="row">
-            <!-- Tax Preparation -->
+        
             <div class="col-lg-6 col-md-12 mb-4">
                 <div class="service-card featured">
                     <div class="service-image">
@@ -139,7 +139,7 @@
                 </div>
             </div>
             
-            <!-- Accounting and Financial Management -->
+         
             <div class="col-lg-6 col-md-12 mb-4">
                 <div class="service-card">
                     <div class="service-image">
@@ -199,7 +199,7 @@
         </div>
         
         <div class="row">
-            <!-- Business Startup Assistance -->
+          
             <div class="col-lg-6 col-md-12 mb-4">
                 <div class="service-card">
                     <div class="service-image">
@@ -262,7 +262,7 @@
                 </div>
             </div>
             
-            <!-- ITIN Application Support -->
+           
             <div class="col-lg-6 col-md-12 mb-4">
                 <div class="service-card">
                     <div class="service-image">
@@ -321,7 +321,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Professional Expertise Section -->
 <section class="expertise-showcase-section layout_padding">
@@ -406,7 +406,7 @@
 </section>
 
 <!-- Why Choose Us Section -->
-<section class="why-choose-section layout_padding bg-light">
+<!-- <section class="why-choose-section layout_padding bg-light">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center mb-5">
@@ -482,7 +482,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Testimonials Section -->
 <section id="testimonials" class="testimonials-section layout_padding">
